@@ -1,6 +1,6 @@
 # React-IP-Address-Tracker
 
-## ![](public/screen.png)
+## ![](public/screen_exemple.png)
 
 > With this site you can find someone's location and other info with an ip address.
 

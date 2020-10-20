@@ -9,8 +9,9 @@ function App() {
   const [location, setLocation] = useState('')
   const [position, setPosition] = useState([0, 0])
   const [List, setList] = useState([])
-
-  const key = process.env.REACT_APP_LEAFLET_API_KEY;
+  
+  // const key = process.env.REACT_APP_LEAFLET_API_KEY;
+  const key = "at_mtkUOsYXFSlq3VIbIqeZNnMSPFoyA";
   const url = `https://geo.ipify.org/api/v1?apiKey=${key}&ipAddress=${ip}`;
 
   async function fetchmap() 
